@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36">
+<mxfile>
   <diagram name="第 1 页" id="O_mwhDAYeDhCa145yO26">
-    <mxGraphModel dx="1347" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="744" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry height="60" width="30" x="180" y="617.5" as="geometry" />
         </mxCell>
         <mxCell id="nL_Sr4F9QhFsnQsQraPk-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" value="" vertex="1">
-          <mxGeometry height="189" width="530" x="280" y="133" as="geometry" />
+          <mxGeometry height="189" width="670" x="280" y="133" as="geometry" />
         </mxCell>
         <mxCell id="nL_Sr4F9QhFsnQsQraPk-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;container=0;" value="物质结构(是一个体系)" vertex="1">
           <mxGeometry height="30" width="120" x="330" y="143" as="geometry" />
@@ -37,16 +37,26 @@
         <mxCell id="nL_Sr4F9QhFsnQsQraPk-37" edge="1" parent="1" source="nL_Sr4F9QhFsnQsQraPk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nL_Sr4F9QhFsnQsQraPk-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-5" connectable="0" parent="nL_Sr4F9QhFsnQsQraPk-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="make" vertex="1">
+          <mxGeometry relative="1" x="0.0211" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nL_Sr4F9QhFsnQsQraPk-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="unit" vertex="1">
           <mxGeometry height="60" width="120" x="305" y="206" as="geometry" />
         </mxCell>
         <mxCell id="nL_Sr4F9QhFsnQsQraPk-38" edge="1" parent="1" source="nL_Sr4F9QhFsnQsQraPk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="nL_Sr4F9QhFsnQsQraPk-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nL_Sr4F9QhFsnQsQraPk-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="maker" vertex="1">
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-6" connectable="0" parent="nL_Sr4F9QhFsnQsQraPk-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="make" vertex="1">
+          <mxGeometry relative="1" x="-0.0253" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nL_Sr4F9QhFsnQsQraPk-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="unit" vertex="1">
           <mxGeometry height="60" width="120" x="665" y="206" as="geometry" />
         </mxCell>
-        <mxCell id="nL_Sr4F9QhFsnQsQraPk-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="parama" vertex="1">
+        <mxCell id="nL_Sr4F9QhFsnQsQraPk-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="parama_lib" vertex="1">
           <mxGeometry height="60" width="120" x="485" y="206" as="geometry" />
         </mxCell>
         <mxCell id="nL_Sr4F9QhFsnQsQraPk-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="生命" vertex="1">
@@ -56,6 +66,11 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-30" y="537.5" as="sourcePoint" />
             <mxPoint x="20" y="487.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-1" connectable="0" parent="nL_Sr4F9QhFsnQsQraPk-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="另一层面等价" vertex="1">
+          <mxGeometry relative="1" x="0.0184" y="3" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nL_Sr4F9QhFsnQsQraPk-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;发育&lt;/div&gt;基本单元(unit)被生产时内有linker便会自组织.&lt;div&gt;&lt;br&gt;&lt;div&gt;发育干预&lt;/div&gt;&lt;div&gt;由builder调控unit组织方式&lt;/div&gt;&lt;/div&gt;" vertex="1">
@@ -72,11 +87,13 @@
             <mxPoint x="1840" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-19" connectable="0" parent="nL0e2Y5jMSqf1ki-6bAr-253" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="同类" vertex="1">
+          <mxGeometry relative="1" x="-0.5076" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BYsuIXC7njSeSBS4Di6j-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="maker" vertex="1">
           <mxGeometry height="40" width="120" x="1634" y="243" as="geometry" />
-        </mxCell>
-        <mxCell id="BYsuIXC7njSeSBS4Di6j-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="3060" y="558.5" as="geometry" />
         </mxCell>
         <mxCell id="9vbf_PAUuT_Ik_HKJhFr-2" edge="1" parent="1" source="BYsuIXC7njSeSBS4Di6j-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BYsuIXC7njSeSBS4Di6j-9">
           <mxGeometry relative="1" as="geometry" />
@@ -176,8 +193,8 @@
         <mxCell id="BYsuIXC7njSeSBS4Di6j-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="unit" vertex="1">
           <mxGeometry height="60" width="120" x="2590" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="BYsuIXC7njSeSBS4Di6j-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="码放与连接" vertex="1">
-          <mxGeometry height="30" width="85" x="2610" y="47" as="geometry" />
+        <mxCell id="BYsuIXC7njSeSBS4Di6j-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="码放与连接&lt;div&gt;&lt;br&gt;&lt;div&gt;(人工干预手段)&lt;/div&gt;&lt;div&gt;在加速演化部分作用,不计入系统本身.&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="91" width="85" x="2607.5" y="30" as="geometry" />
         </mxCell>
         <mxCell id="BYsuIXC7njSeSBS4Di6j-46" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="109" width="120" x="1920" y="20" as="geometry" />
@@ -296,16 +313,16 @@
         <mxCell id="9vbf_PAUuT_Ik_HKJhFr-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="" vertex="1">
           <mxGeometry height="100" width="50" x="2100" y="523.5" as="geometry" />
         </mxCell>
-        <mxCell id="9vbf_PAUuT_Ik_HKJhFr-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;maker_1&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="9vbf_PAUuT_Ik_HKJhFr-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;component_1&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="80" x="1971" y="638.5" as="geometry" />
         </mxCell>
-        <mxCell id="9vbf_PAUuT_Ik_HKJhFr-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;maker_2&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="9vbf_PAUuT_Ik_HKJhFr-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="component_2" vertex="1">
           <mxGeometry height="30" width="80" x="1971" y="668.5" as="geometry" />
         </mxCell>
-        <mxCell id="9vbf_PAUuT_Ik_HKJhFr-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="make_meta_builder" vertex="1">
-          <mxGeometry height="30" width="70" x="2150" y="538.5" as="geometry" />
+        <mxCell id="9vbf_PAUuT_Ik_HKJhFr-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="make_component" vertex="1">
+          <mxGeometry height="30" width="110" x="2150" y="538.5" as="geometry" />
         </mxCell>
-        <mxCell id="l5EB4VLx2rirdM_Yqdep-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="需要建立一个函数有能力自动形成任意方程的函数" vertex="1">
+        <mxCell id="l5EB4VLx2rirdM_Yqdep-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="需要建立一个函数,有能力自动形成任意方程的函数" vertex="1">
           <mxGeometry height="80" width="70" x="2140" y="738.5" as="geometry" />
         </mxCell>
         <mxCell id="l5EB4VLx2rirdM_Yqdep-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="程序层面的和抽象层面的要隔离" vertex="1">
@@ -331,12 +348,6 @@
         </mxCell>
         <mxCell id="4MubnzscEIRJSzOtZDan-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="包括研发和生产,非智能性质的,更与物质世界衔接.是类似神经网络算法般的重构果实的物种." vertex="1">
           <mxGeometry height="60" width="270" x="240" y="1050" as="geometry" />
-        </mxCell>
-        <mxCell id="4MubnzscEIRJSzOtZDan-10" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="3140" y="540" as="sourcePoint" />
-            <mxPoint x="3060" y="540" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="kQrWoBX2f6BC-EGxSpxx-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="生产" vertex="1">
           <mxGeometry height="30" width="60" x="620" y="608.5" as="geometry" />
@@ -400,6 +411,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-21" connectable="0" parent="nL0e2Y5jMSqf1ki-6bAr-255" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="同类" vertex="1">
+          <mxGeometry relative="1" x="-0.2013" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nL0e2Y5jMSqf1ki-6bAr-256" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="化学信号&lt;div&gt;(物质/信息)&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="70" x="2880" y="47" as="geometry" />
         </mxCell>
@@ -414,6 +430,54 @@
         </mxCell>
         <mxCell id="nL0e2Y5jMSqf1ki-6bAr-260" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="电信号" vertex="1">
           <mxGeometry height="30" width="60" x="2984.99" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="nL0e2Y5jMSqf1ki-6bAr-261" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="此装置皆由组件构成" vertex="1">
+          <mxGeometry height="30" width="80" x="3090" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="nL0e2Y5jMSqf1ki-6bAr-262" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="在数据流角度看,unit是有多通道的总线,内部通道可以互相影响,通过某种调控机制." vertex="1">
+          <mxGeometry height="140" width="150" x="3240" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="nL0e2Y5jMSqf1ki-6bAr-263" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="我需要一种类似压缩编码\类似序列\类似参数的静态数据形式,作为make行为的参数,就像数字生命的遗传物质." vertex="1">
+          <mxGeometry height="30" width="230" x="1579" y="658.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="unit通过explainer,参照parama制造maker,借由maker制造新的unit(携带explainer).&lt;br&gt;&lt;br&gt;&lt;div&gt;变异之道就在其中&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134" width="100" x="820" y="160.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2010" y="720" as="sourcePoint" />
+            <mxPoint x="2010" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="240" width="240" x="1189" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="explaner" vertex="1">
+          <mxGeometry height="30" width="99" x="1259.5" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="linker" vertex="1">
+          <mxGeometry height="30" width="99" x="1259.5" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-14" edge="1" parent="1" source="ekABHi6lrQEiHqvlqKDl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ekABHi6lrQEiHqvlqKDl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-12" parent="1" style="triangle;whiteSpace=wrap;html=1;shapeInside=1;" value="传感器" vertex="1">
+          <mxGeometry height="50" width="70" x="1070" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-15" edge="1" parent="1" source="ekABHi6lrQEiHqvlqKDl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ekABHi6lrQEiHqvlqKDl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;接口&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="30" x="1180" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-17" edge="1" parent="1" source="ekABHi6lrQEiHqvlqKDl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ekABHi6lrQEiHqvlqKDl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-16" parent="1" style="triangle;whiteSpace=wrap;html=1;shapeInside=1;" value="传感器" vertex="1">
+          <mxGeometry height="50" width="70" x="1220" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="ekABHi6lrQEiHqvlqKDl-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="不仅是linker,任何组件都有同样的信息交换通路.&lt;br&gt;还没设计完成,这种通路也被编码在parama中.&lt;br&gt;应明确一点,此系统中任何功能都不可硬编码." vertex="1">
+          <mxGeometry height="100" width="160" x="1450" y="900" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
